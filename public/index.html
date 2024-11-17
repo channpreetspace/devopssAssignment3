@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="auth-modal">
+            <div class="close-icon">ⓧ</div>
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <input 
+                type="text"
+                id="username"
+                name="username"
+                placeholder="username" 
+                required
+                />
+                <input 
+                type="password"
+                id="password"
+                name="password"
+                placeholder="password"
+                required
+                />
+                <input 
+                type="submit" class="form-button" value="Submit"
+                />
+            </form>
+            <a href = "register.html">
+                <input 
+                type="submit" class="form-button" value="Register"
+                />
+            </a>
+        </div>
+    </body>
+</html>
